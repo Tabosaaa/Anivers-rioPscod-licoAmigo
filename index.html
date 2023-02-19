@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>🎉🎉🥳 🥳 🥳 </title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      h1 {
+        font-size: 4em;
+        text-align: center;
+      }
+      .small-text {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size: 0.8em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>PARABÉNS D3!!!🎉🎉🎉🥳 🥳 </h1>
+      <p class="small-text">comi o cu de quem ta lendo</p>
+    </div>
+
+    <script>
+       
+        var colors = ['#ff00ff', '#00ff00', '#0000ff', '#ff0000', '#ffff00', '#00ffff'];
+        
+
+        function changeBackgroundColor() {
+          
+          var randomColor = colors[Math.floor(Math.random() * colors.length)];
+          
+          
+          document.body.style.backgroundColor = randomColor;
+        }
+       
+        setInterval(changeBackgroundColor, 300);
+      </script>
+  </body>
+</html>
